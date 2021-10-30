@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 70%;
+    height:820px;
+    background-color: #fff;
+}
+.header {
+    background-color: darkgreen;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    flex-basis:70%;
+}
+nav ul {
+    background-color: yellow;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+button {
+    background-color: white;
+    padding: 2px 5px;
+    outline: none;
+    border:1px solid #000
+}
+.content {
+    height: 750px;
+    display: flex;
+    background-color: violet;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex:0 20%;
+}
+.left-side-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 30%;
+    background-color: turquoise;
+}
+.left-side-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: blue;
+}
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: brown;
+}
+.cards {
+    display: flex;
+    flex: 0 30%;
+    justify-content: space-around;
+    background-color:darkblue;
+}
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 20%;
+    background-color: cadetblue;
+}
+h3 {
+    margin-bottom: 20px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 0 40%;
+    background-color: darkgrey;
+    justify-content: space-around;
+
+}
+.boxes .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 20%;
+    background-color: darkorange;
+}
+#box4 {
+    order:2;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 25%;
+    background-color: forestgreen;
+}
+.images .image {
+    height: 100px;
+    display: flex;
+    flex: 0 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: fuchsia;
+}
+.image:nth-child(odd) {
+    align-self: flex-end;
+
+}
