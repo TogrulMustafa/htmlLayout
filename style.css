@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 0 70%;
-    height:820px;
+    height:1000px;
     background-color: #fff;
 }
 .header {
@@ -41,9 +41,9 @@ button {
     border:1px solid #000
 }
 .content {
-    height: 750px;
+    height: 930px;
     display: flex;
-    background-color: violet;
+    background-color: #d9cea4;;
 }
 .left-side {
     display: flex;
@@ -69,39 +69,65 @@ button {
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    background-color: brown;
 }
 .cards {
     display: flex;
     flex: 0 30%;
     justify-content: space-around;
-    background-color:darkblue;
 }
 .cards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     flex: 0 20%;
-    background-color: cadetblue;
+    background-color: silver;
+}
+.cards .card:hover,.image img:hover {
+    box-shadow: 5px 5px 20px 0 rgb(73, 191, 245);
+}
+.transition {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.ff-Pacifico {
+    font-family: 'Pacifico', cursive;
+}
+.h-170 {
+    height: 170px;
+}
+.h-100 {
+    height: 100px;
+}
+.w-100 {
+    width: 100%;
+}
+.cover {
+    object-fit: cover;
+}
+.b-red {
+    border: 1px solid red;
 }
 h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .boxes {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex: 0 40%;
-    background-color: darkgrey;
     justify-content: space-around;
 
 }
 .boxes .box {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 0 20%;
-    background-color: darkorange;
+    font-size:15px;
 }
 #box4 {
     order:2;
@@ -110,17 +136,20 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex: 0 25%;
-    background-color: forestgreen;
 }
 .images .image {
     height: 100px;
     display: flex;
     flex: 0 20%;
-    align-items: center;
-    justify-content: center;
-    background-color: fuchsia;
 }
 .image:nth-child(odd) {
     align-self: flex-end;
 
+}
+.br-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
